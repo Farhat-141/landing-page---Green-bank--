@@ -1,0 +1,189 @@
+body{
+    background-color: #1A1E1C;
+    color: white;
+    font-family: mplus1;
+}
+@font-face {
+    font-family: mplus1;
+    src: url(M_PLUS_1/static/MPLUS1-Regular.ttf);
+}
+.container{
+    padding: 20px 60px;
+}
+header{
+    position: relative;
+}
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav li:hover{
+    color: #2BB32A;
+    transition: 0.5s;
+}
+nav h1{
+    margin: 0;
+    font-size: 20px;
+}
+nav button{
+    color: #2BB32A;
+    background-color: transparent;
+    border: 1px solid #2BB32A;
+    padding: 12px 32px;
+    border-radius: 64px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav button:hover{
+    color: white;
+    background-color: #2BB32A;
+    transition: 0.5s;
+}
+#space{
+    height: 128px;
+    margin: 0;
+    padding: 0;
+
+}
+.banner, .banner2, .banner3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 35px;
+}
+
+.banner-left, .banner2-left, .banner3-left{
+    width: 50%;
+    align-content: center;
+}
+
+.banner-left h1, .banner2-left h1, .banner3-right h1{
+    font-size: 56px;
+    margin: 0;
+}
+.banner-left p, .banner2-left p , .banner3-right p{
+    font-size: 18px;
+    color: #ADB2B1;
+}
+.banner-left button, .banner2-left button, .banner3-right button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 32px;
+    background-color: #2BB32A;
+    border-radius: 64px;
+    color: white;
+    border: none;
+}
+.banner-left div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.banner-left div p{
+    margin: 16px;
+}
+.banner-left div span{
+    font-weight: bold;
+    display: block;
+}
+.banner-left div img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -15px;
+    border: 2px solid white;
+}
+.banner-right, .banner2-right, .banner3-right{
+    width: 50%;
+    align-content: center;
+}
+.banner-right img, .banner2-right img, .banner3-left img{
+    width: 100%;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 64px;
+    border-radius: 32px;
+    background: linear-gradient(to right, #3d544d3b, #3d544d3b);
+}
+.about div h1{
+    font-size: 48px;
+    letter-spacing: -0.32px;
+    margin: 0;
+}
+.about div p{
+    font-size: 16px;
+    color: #2BB32A;
+    margin: 0;
+}
+.logo-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: gray;
+}
+.features h1{
+    text-align: center;
+    font-size: 40px;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 32px;
+}
+.allframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+.offer-des{
+    display: flex;
+    flex-direction: column;
+}
+.offer-des h2{
+    font-size: 24px;
+    margin: 0;
+}
+.offer-des p{
+    margin: 0;
+    font-size: 16px;
+    color: #ADB2B1;
+    width: calc(1fr/3);
+}
+.banner2-left h1{
+    font-size: 40px;
+}
+.banner2-left p{
+    font-size: 16px;
+}
+.banner3-right h1{
+    font-size: 40px;
+}
+.banner3-right p{
+    font-size: 16px;
+}
+.banner3-right{
+    order: 1;
+}
