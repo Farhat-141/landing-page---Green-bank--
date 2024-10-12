@@ -193,11 +193,11 @@ nav button:hover{
     justify-content: space-between;
     column-gap: 32px;
 }
-.test div{
+.feedback{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #27322F;
+    background-color: #27322f4b;
     border-radius: 32px;
     padding: 48px 24px;
 }
@@ -215,4 +215,23 @@ nav button:hover{
     width: fit-content;
     border-radius: 56px;
     padding: 16px;
+}
+.FAQs{
+    margin: 0 auto;
+    padding:  120px;
+}
+.FAQs h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+.FAQs h2{
+    font-size: 24px;
+}
+.FAQs p{
+    font-size: 16px;
+    color: #ADB2B1;
+}
+.FAQs div{
+    border-bottom: 1px solid white;
 }
