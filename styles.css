@@ -187,3 +187,32 @@ nav button:hover{
 .banner3-right{
     order: 1;
 }
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 32px;
+}
+.test div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #27322F;
+    border-radius: 32px;
+    padding: 48px 24px;
+}
+.test div div{
+    margin: 0;
+    padding: 0;
+}
+.test div div div>*{
+    margin: 0;
+    padding: 0;
+}
+.test div h1{
+    font-size: 16px;
+    background-color: #3D544D;
+    width: fit-content;
+    border-radius: 56px;
+    padding: 16px;
+}
