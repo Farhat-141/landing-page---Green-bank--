@@ -50,11 +50,22 @@ nav button{
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 1.5px;
 }
 nav button:hover{
-    color: white;
+    color: black;
     background-color: #2BB32A;
     transition: 0.5s;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    column-gap: 0.2rem;
+}
+nav div img{
+    height: 1rem;
+    width: 1rem;
 }
 #space{
     height: 128px;
@@ -82,7 +93,7 @@ nav button:hover{
     font-size: 18px;
     color: #ADB2B1;
 }
-.banner-left button, .banner2-left button, .banner3-right button{
+.btn{
     font-size: 16px;
     font-weight: bold;
     padding: 16px 32px;
@@ -90,6 +101,14 @@ nav button:hover{
     border-radius: 64px;
     color: white;
     border: none;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: transparent;
+    border: 1px solid #2BB32A;
 }
 .banner-left div{
     display: flex;
