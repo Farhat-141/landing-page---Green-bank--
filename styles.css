@@ -2,13 +2,16 @@ body{
     background-color: #1A1E1C;
     color: white;
     font-family: mplus1;
+    position: relative;
+    padding: 0 0;
 }
 @font-face {
     font-family: mplus1;
     src: url(M_PLUS_1/static/MPLUS1-Regular.ttf);
 }
 .container{
-    padding: 20px 60px;
+    padding: 20px 40px 0 40px;
+    margin: 0;
     position: relative;
 }
 .dora{
@@ -92,15 +95,21 @@ nav div img{
     justify-content: space-around;
     column-gap: 35px;
 }
-
 .banner-left, .banner2-left, .banner3-left{
     width: 50%;
     align-content: center;
 }
 
+.banner-left h1 img{
+    position: absolute;
+    left: -16px;
+    top: 80px;
+}
+
 .banner-left h1, .banner2-left h1, .banner3-right h1{
     font-size: 56px;
     margin: 0;
+    position: relative;
 }
 .banner-left p, .banner2-left p , .banner3-right p{
     font-size: 18px;
@@ -231,10 +240,15 @@ nav div img{
 .feedback{
     display: flex;
     flex-direction: column;
+    row-gap: 32px;
     justify-content: space-between;
     background-color: #27322fb2;
     border-radius: 32px;
     padding: 48px 24px;
+}
+.fd{
+    display: flex;
+    column-gap: 10px;
 }
 .test div div{
     margin: 0;
@@ -280,4 +294,48 @@ nav div img{
     cursor: pointer;
     padding: 0;
     order: 2;
+}
+.download{
+    display: flex;
+    column-gap: 32px;
+}
+.dleft{
+    width: 50%;
+}
+.line{
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #3D544D;
+    width: 122px;
+    height: 32px;
+    margin: 10px;
+}
+footer{
+    padding: 40px 0 20px 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-around;
+}
+.s1{
+    width: 25%;
+}
+.s1 div{
+    display: flex;
+    column-gap: 10px;
+}
+#r{
+    margin-top: 50px;
+    font-size: 12px;
+}
+.s2{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.s2 ul p{
+    font-weight: bold;
+}
+.s2 ul li{
+    list-style-type: none;
+    color: #ADB2B1;
 }
