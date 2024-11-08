@@ -358,7 +358,7 @@ footer{
         padding: 10px;
     }
     .banner-left, .banner2-left, .banner3-right{
-        width: 80%;
+        width: 75%;
     }
     .banner-right, .banner2-right{
         position: absolute;
@@ -372,8 +372,8 @@ footer{
         z-index: -1;
         right: 0;
     }
-    .banner-left h1{
-        font-size: 2em;
+    .banner-left h1, .banner2-left h1, .banner3-right h1{
+        font-size: 1.5em;
     }
     .banner-left h1 img{
         display: none;
@@ -382,14 +382,14 @@ footer{
         width: 80%;
         font-size: 0.9em;
     }
-    .banner-left button{
+    .container button{
         font-size: 0.75em;
     }
     .dora{
         display: none;
     }
     .about div h1{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .about div p{
         font-size: 0.6rem;
@@ -401,13 +401,15 @@ footer{
         font-size: 0.5rem;
     }
     .features h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .offer{
-        column-gap: 0;
+        row-gap: 1rem;
+        flex-direction: column;
     }
     .allframe{
         column-gap: 0.5rem;
+        justify-content: center;
     }
     .offer img{
         width: 3rem;
@@ -417,5 +419,54 @@ footer{
     }
     .offer-des p{
         font-size: 0.75em;
+    }
+    #space{
+        height: 64px;
+    }
+    .test{
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+    }
+    .feedback h1{
+        font-size: 50px;
+        order: 3;
+    }
+    .feedback div{
+        order: -1;
+    }
+    .feedback{
+        row-gap: 5px;
+        width: 75%;
+        justify-content: center;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .FAQs{
+        padding: 5px;
+    }
+    .FAQs h1, .d00 h2{
+        font-size: 1em;
+    }
+    #c1{
+        display: none;
+    }
+    .dleft{
+        width: 100%;
+    }
+    footer{
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    .s1{
+        width: 100%;
+        order: 2;
+    }
+    .s2{
+        width: 100%;
+        font-size: 0.8em;
     }
 }
