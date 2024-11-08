@@ -347,3 +347,75 @@ footer{
     color: white;
     text-decoration: underline;
 }
+
+@media (max-width:900px) {
+    nav ul{
+        order: 2;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .container{
+        padding: 10px;
+    }
+    .banner-left, .banner2-left, .banner3-right{
+        width: 80%;
+    }
+    .banner-right, .banner2-right{
+        position: absolute;
+        width: 20%;
+        z-index: -1;
+        right: 0;
+    }
+    .banner3-left{
+        position: absolute;
+        width: 20%;
+        z-index: -1;
+        right: 0;
+    }
+    .banner-left h1{
+        font-size: 2em;
+    }
+    .banner-left h1 img{
+        display: none;
+    }
+    .banner-left p{
+        width: 80%;
+        font-size: 0.9em;
+    }
+    .banner-left button{
+        font-size: 0.75em;
+    }
+    .dora{
+        display: none;
+    }
+    .about div h1{
+        font-size: 1.5em;
+    }
+    .about div p{
+        font-size: 0.6rem;
+    }
+    .about{
+        padding: 0.75rem;
+    }
+    .logo-slider{
+        font-size: 0.5rem;
+    }
+    .features h1{
+        font-size: 2rem;
+    }
+    .offer{
+        column-gap: 0;
+    }
+    .allframe{
+        column-gap: 0.5rem;
+    }
+    .offer img{
+        width: 3rem;
+    }
+    .offer-des h2{
+        font-size: 0.8em;
+    }
+    .offer-des p{
+        font-size: 0.75em;
+    }
+}
