@@ -353,6 +353,7 @@ footer{
         order: 2;
         flex-direction: column;
         row-gap: 30px;
+        display:none;
     }
     .container{
         padding: 10px;
